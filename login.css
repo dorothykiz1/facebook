@@ -1,0 +1,151 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+.black {
+    background-color: black;
+    display: block;
+}
+
+.login {
+    background-color: white;
+    width: 70%;
+    height: 430px;
+    margin: 10% auto auto;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.float {
+    float: left;
+    width: 49%;
+    margin: 2px;
+    text-align: center;
+    height: 100%;
+    padding: 1px;
+}
+
+.left {
+    padding-top: 5px;
+}
+
+.left h3 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+
+/* .left {
+    background-color: red;
+} */
+
+.left input,
+.input-left {
+    width: 80%;
+    margin: 8px auto;
+    font-size: 15px;
+    padding: 14px;
+    /* padding-top: 5px; */
+    /* border-radius: 5px; */
+    /* border-width: 10px; */
+    /* border-color: rgb(87, 85, 85); */
+    /* border-width: initial; */
+    /* border-style: none;*/
+    border-color: initial;
+}
+
+.left input[type="submit"] {
+    width: 90%;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(20, 167, 20);
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: gray;
+}
+
+.lower .rem label,
+.lower .rem input {
+    display: inline-block;
+    margin-bottom: 0;
+    /* vertical-align: middle; */
+}
+
+.lower .pass a {
+    color: gray;
+    text-decoration: none;
+}
+
+.lower .pass a:hover {
+    color: rgb(28, 139, 28);
+}
+
+.right {
+    padding-top: 20px;
+}
+
+.right a {
+    color: rgb(102, 210, 247);
+    font-weight: 300px;
+    text-decoration: none;
+}
+
+.right a:hover {
+    color: rgb(28, 139, 28);
+}
+
+.right .social button {
+    width: 90%;
+    color: white;
+    margin: 8px auto;
+    padding: 10px;
+    font-size: 15px;
+    border-width: 10px;
+    border-style: none;
+    text-align: center;
+}
+
+.social .facebook button {
+    background-color: rgb(88, 94, 158);
+}
+
+.social .twitter button {
+    background-color: rgb(56, 185, 228);
+}
+
+.social .google button {
+    background-color: rgb(230, 69, 69);
+}
+
+.social a button img {
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.para {
+    color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+span {
+    color: green;
+}
+
+@media only screen and (max-width:400px) {
+    .login {
+        width: 95%;
+        height: auto;
+    }
+    .float input {
+        width: 100%;
+    }
+}
