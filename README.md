@@ -1,3 +1,1 @@
-/**
-Facebook ,Twitter and Google plus sign up page
-**/
+##Facebook ,Twitter and Google plus sign up page
